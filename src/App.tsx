@@ -65,13 +65,13 @@ function App() {
 
         {/* USPS Barcode Section - Redesigned to match reference */}
         <div className="border-b-2 border-black p-4">
-          <div className="border-2 border-red-600 rounded-lg p-4 flex items-start">
+          <div className="border-2 border-red-600 rounded-lg p-4 flex flex-col md:flex-row items-center md:items-start">
             <div className="text-3xl font-bold mr-8">USPS</div>
             <div className="flex-1 flex flex-col items-center">
               <div className="relative mb-2">
                 <Barcode 
                   value="1A2B 3C1A 2B3C 1A2B" 
-                  width={1.5}
+                  width={1}
                   height={60}
                   fontSize={0}
                   margin={0}
