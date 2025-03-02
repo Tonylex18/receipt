@@ -4,8 +4,6 @@ import logo from './assets/logo.png';
 
 function App() {
   const [signature, setSignature] = useState('');
-  const [name, setName] = useState('');
-  const [address, setAddress] = useState('');
 
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
